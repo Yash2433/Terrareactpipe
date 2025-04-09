@@ -1,0 +1,83 @@
+.catalog-container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background: linear-gradient(to right, #f7f9fc, #e6ecf5);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-form {
+    display: grid;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .product-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .product-form button {
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .product-form button:hover {
+    background: #0056b3;
+  }
+  
+  .filter-bar {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .filter-bar input, .filter-bar button {
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .filter-bar button {
+    background: #28a745;
+    color: white;
+    border: none;
+  }
+  
+  .product-grid {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  }
+  
+  .product-card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .product-card h3 {
+    margin-top: 0;
+  }
+  
+  .product-card button {
+    margin: 5px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .product-card button.delete {
+    background: #dc3545;
+    color: white;
+  }
+  
